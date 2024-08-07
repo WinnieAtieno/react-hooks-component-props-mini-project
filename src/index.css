@@ -35,6 +35,8 @@ header h1 {
 aside {
   display: flex;
   margin-bottom: 3rem;
+  
+  
 }
 
 aside img {
@@ -44,9 +46,21 @@ aside img {
   margin-right: 1rem;
   background-color: black;
 }
-
+.author{
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+  margin-left: 10px;
+  
+}
+.author p{
+  margin-bottom: -20px;
+}
 article {
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
+}
+.author a{
+  color: var(--link);
 }
 
 article p {
